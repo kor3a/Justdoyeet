@@ -32,7 +32,14 @@
                             <outlet property="delegate" destination="Urm-KH-RBG" id="9yl-Nx-FKd"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Just Do EET" id="LEz-ta-crg"/>
+                    <navigationItem key="navigationItem" title="Just Do EET" id="LEz-ta-crg">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="6no-cU-h2G">
+                            <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="addButtonPressed:" destination="Urm-KH-RBG" id="zvA-IV-ARc"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xWk-MF-sGk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
